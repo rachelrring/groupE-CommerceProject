@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Category, Product
 from django.views.generic import ListView, DetailView
+from django.core.paginator import Paginator, EmptyPage, InvalidPage
 
 # Create your views here.
 class ProdCat(ListView):
@@ -14,7 +15,17 @@ class ProdCat(ListView):
             products = Product.objects.filter(category = category, available = True)
         else:
             products = Product.objects.all().filter(available = True)
-                
+
+        paginator = Paginator(products, 6)
+        try:
+            page = int(request.GET.get('page','1'))
+        except:
+            page = 1
+        try:
+            products = paginator.page(page)
+        except (EmptyPage, InvalidPage):
+            products = paginator.page(paginator.num_pages)
+            
         return render(request, "shop/category.html",{'category':category, 'products':products})
 
 class ProdDetail(DetailView):
