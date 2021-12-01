@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'shop',
     'search_app',
     'cart',
+    'stripe',
 ]
 
 MIDDLEWARE = [
@@ -139,6 +140,9 @@ STATICFILES_FINDER = [
 ]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = str(BASE_DIR.joinpath('media'))
+
+STRIPE_SECRET_KEY = '<sk_test_51K1qvlKTdYOInoDpPDBRyOS7LXXqLrldif7F9Q8oJRtjJPfFqjCv08y1T4BCOXEY5b8wG42996yrRUynS1vQWyfd001LNiGGJJ>'
+STRIPE_PUBLISHABLE_KEY = '<pk_test_51K1qvlKTdYOInoDpDFDGaRUMwJGL77WhozR7o1sDMbaGuoCV5403F2BqzwlkuIPrbe8Y4jumy1goI32PKLt8LFVy00rr0O8dMq>'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
