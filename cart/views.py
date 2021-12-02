@@ -47,7 +47,6 @@ def cart_detail(request, total=0, counter=0, cart_item = None):
     stripe_total = int(total * 100)
     description = 'Online Shop - New order'
     data_key = settings.STRIPE_PUBLISHABLE_KEY
-
     if request.method == 'POST':
         print(request.POST)
         try:
