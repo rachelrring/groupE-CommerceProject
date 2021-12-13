@@ -1,0 +1,224 @@
+[
+    {
+        "model": "shop.category",
+        "pk": "6bf8c3e9-3e93-4bb9-9357-c61c6c0a09a0",
+        "fields": {
+            "name": "Soups",
+            "description": "",
+            "image": "category/soups_banner.png"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": "bf5baaa8-a795-47b6-9d7f-c68fca19e3ec",
+        "fields": {
+            "name": "Baking",
+            "description": "",
+            "image": "category/baking_banner.png"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": "e65a40df-011b-43d5-87a1-2dc630c6e8a1",
+        "fields": {
+            "name": "Italian",
+            "description": "",
+            "image": "category/italian_banner.png"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "079d1efc-960e-435d-8d88-a0c868aec1e2",
+        "fields": {
+            "name": "The Soup Book",
+            "description": "The Soup Book\r\nEditor-in-chief Sophie Grigson",
+            "category": "6bf8c3e9-3e93-4bb9-9357-c61c6c0a09a0",
+            "price": "28.10",
+            "image": "product/soupbook1_lxli6c0.jpg",
+            "stock": 8,
+            "available": true,
+            "created": "2021-11-27T17:01:32.942Z",
+            "updated": "2021-11-27T17:01:32.942Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "17e3a20e-df92-4970-9188-3b9e7af5b0bb",
+        "fields": {
+            "name": "Seasonal Soups",
+            "description": "At last, a soup for every week of the year! Packed with 52 mouth-watering recipes, this irresistible collection features everything from winter warmers like Alternative Scotch Broth to dinner party dazzlers like Plum Tomato, Orzo and Oregano or Asian Noodle. 100% vegan-friendly recipes, with tips to add dairy or meat according to your preferences. Written by soup-obsessed greengrocer Fraser Reid and road-tested by his loyal but exacting customers, Seasonal Soups will inspire you to make the very best of our wonderful seasonal produce and create exceptionally tasty soups for all occasions.",
+            "category": "6bf8c3e9-3e93-4bb9-9357-c61c6c0a09a0",
+            "price": "23.75",
+            "image": "product/seasonal_soups.jpg",
+            "stock": 120,
+            "available": true,
+            "created": "2021-12-08T16:10:55.268Z",
+            "updated": "2021-12-08T16:10:55.268Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "251d402f-28a7-48ac-b940-d8b6b939b5c9",
+        "fields": {
+            "name": "La Cucina",
+            "description": "With the prestigious Italian Academy of Cuisine as the author and more than 2,000 recipes, this has the greatest scope of any Italian cookbook. But it's also far-ranging in terms of geography. The book is divided into 8 chapters: Antipasti; Pizza and Sauces; Pasta, Polenta and Rice; Seafood; Meats and Poultry; Vegetables; Cheese; Sweets and Liqueurs All regions are covered: Apulia, Sicily, Sardinia, Abruzzi, Emilia-Romagna, Umbria, Tuscany, Veneto, Latium, Liguria, Calabria, Basilicata, Alto Adige, Campania, Friuli, Lombardy, Piedmont, Marche, Trentino, Molise",
+            "category": "e65a40df-011b-43d5-87a1-2dc630c6e8a1",
+            "price": "70.00",
+            "image": "product/italy_italian.jpg",
+            "stock": 20,
+            "available": true,
+            "created": "2021-12-08T16:06:35.961Z",
+            "updated": "2021-12-08T16:06:35.961Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "5a5d5367-5c53-4ec3-b22b-c781c9e10dfd",
+        "fields": {
+            "name": "Essentials of Classic Italian Cooking",
+            "description": "Essentials of Classic Italian Cooking by Marcella Hazan",
+            "category": "e65a40df-011b-43d5-87a1-2dc630c6e8a1",
+            "price": "25.00",
+            "image": "product/italian1_fzRIhSL.jpg",
+            "stock": 14,
+            "available": true,
+            "created": "2021-11-27T17:03:59.240Z",
+            "updated": "2021-12-02T11:47:59.141Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "6e180d76-a32b-4cb9-a023-7491c1c1f89c",
+        "fields": {
+            "name": "Simple Soups",
+            "description": "Bursting with colourful photography, Ottolenghi SIMPLE showcases YotamÆs standout dishes that will suit whatever type of cooking you find easy û whether thatÆs getting wonderful food on the table in under 30 minutes, using just one pot to make a delicious meal, or a flavoursome dish that can be prepared ahead and then served when youÆre ready.",
+            "category": "6bf8c3e9-3e93-4bb9-9357-c61c6c0a09a0",
+            "price": "24.00",
+            "image": "product/lemon_soup.jpg",
+            "stock": 9,
+            "available": true,
+            "created": "2021-12-08T16:15:33.566Z",
+            "updated": "2021-12-08T16:15:33.566Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "7e0cb3f2-e219-4999-aa03-aeb0d593cddd",
+        "fields": {
+            "name": "The Sicily Cookbook",
+            "description": "Get a taste of the unique fusion of flavours that Sicilian food has to offer!\r\n\r\n?Packed with more than 70 Sicilian recipes, all accompanied by evocative food photography from the island, this Italian cookbook will bring the Mediterranean sunshine into your kitchen.\r\n\r\nDiscover authentic Italian cooking at its finest with this Sicilian recipe book. Here's what's inside:\r\n\r\n- More than 70 Sicilian sweet and savoury recipes, from Pasta Alla Norma, grilled octopus, and Sicilian baked sausage to arancini with tuna, Jerusalem artichokes with black lentils, and Sicilian orange bread\r\n- Recipes include appetisers, main courses, individual dishes, side dishes, desserts, and drinks\r\n- Easy-to-follow cooking instructions with preparation times\r\n- Stunning full-page food photography with atmospheric scenes of Sicilian architecture and landscapes\r\n- Features on local chefs, food developers, and producers\r\n\r\nEmbark on a culinary trip of a lifetime with Sicilian cook, writer and photographer, Cettina Vicenzino. While only a few miles from Italy, Sicily's heritage is proudly distinct from that of the mainland, favouring dishes packed with spices, citrus fruits, cheeses, olives, tomatoes, aubergines, and seafood.\r\n\r\nBring the food of Sicily to your table with recipes ranging from smoked tuna to pasta with Trapani pesto. This Sicilian cookbook features three strands of Sicilian cooking - Cucina Povera (peasant food), Cibo di Strada (street food), and Cucina dei Monsu (sophisticated food). It also includes profiles of local chefs and food heroes.\r\n\r\nWhether you're a lover of Italian and Sicilian food or want to explore the Mediterranean diet, The Sicily Cookbook will be sure to hit the spot!",
+            "category": "e65a40df-011b-43d5-87a1-2dc630c6e8a1",
+            "price": "31.00",
+            "image": "product/sicily_italian.jpg",
+            "stock": 100,
+            "available": true,
+            "created": "2021-12-08T16:07:40.801Z",
+            "updated": "2021-12-08T16:07:40.801Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "a7648469-d9c8-4edc-91a5-d1fdafefab16",
+        "fields": {
+            "name": "Italian street food",
+            "description": "Italian Street Food takes you behind the piazzas, down the back streets and into the tiny bars and cafes to bring you traditional, local recipes that are rarely seen outside of Italy. Delve inside to discover the secret dishes from Italy's hidden laneways and learn about the little-known recipes of this world cuisine.\r\n\r\n\r\nLearn how to make authentic polpettine, arancini, piadine, cannoli and crostoli, and perfect your gelato-making skills with authentic Italian flavours such as lemon ricotta, peach and basil, and panettone flavour. With beautiful stories and photography throughout, Italian Street Food brings an old and much-loved cuisine into a whole new light.",
+            "category": "e65a40df-011b-43d5-87a1-2dc630c6e8a1",
+            "price": "12.00",
+            "image": "product/street_italian.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2021-12-08T16:05:19.696Z",
+            "updated": "2021-12-08T16:05:19.696Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "ad825040-fe17-43c4-a4d4-8e61961f4f49",
+        "fields": {
+            "name": "Jane's Patisserie",
+            "description": "Jane's Patisserie by Jane Dunn",
+            "category": "bf5baaa8-a795-47b6-9d7f-c68fca19e3ec",
+            "price": "21.00",
+            "image": "product/baking1_X0nKLqt.jpeg",
+            "stock": 12,
+            "available": true,
+            "created": "2021-11-27T17:05:38.341Z",
+            "updated": "2021-11-27T17:05:38.341Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "dc27ef85-a814-4e12-99bf-3afb5e981e62",
+        "fields": {
+            "name": "The Pizza Bible",
+            "description": "Written by our very own Ooni Ambassador, 13-time world Pizza Champion Tony Gemignani, The Pizza Bible is a complete guide to making pizza, featuring 75 detailed recipes across Italian and international regional styles.\r\n\r\nFrom the thinnest cracker-crisp crust to the fluffiest Sicilian pan pies, this book is the perfect companion to master homemade pizza (alongside your trusty Ooni pizza oven, that is!)\r\n\r\nMaster every style of pizza dough, and the assembly, topping and baking insider secrets that only a pro like Tony Gemignani can reveal.",
+            "category": "e65a40df-011b-43d5-87a1-2dc630c6e8a1",
+            "price": "24.99",
+            "image": "product/pizza_italian.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2021-12-08T16:04:16.526Z",
+            "updated": "2021-12-08T16:04:16.526Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "dcaad8cb-c08d-45c9-87c2-123c012edc6c",
+        "fields": {
+            "name": "The Soup Book 2.0",
+            "description": "Book of soups:)",
+            "category": "6bf8c3e9-3e93-4bb9-9357-c61c6c0a09a0",
+            "price": "31.90",
+            "image": "product/soup_soup.jpg",
+            "stock": 32,
+            "available": true,
+            "created": "2021-12-08T16:14:15.577Z",
+            "updated": "2021-12-08T16:19:52.969Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "e8b59db2-8d8f-476d-ba58-14904b91ca72",
+        "fields": {
+            "name": "Bowls & Broths",
+            "description": "Packed with mouth-watering recipes to make again and again, and chapters on dumplings, noodles, hotpots, rice and even sweets things. All are perfect to try at home for a weekend feast and for quick and easy weeknight dinners there's handy batch cooking and freezer tips.",
+            "category": "6bf8c3e9-3e93-4bb9-9357-c61c6c0a09a0",
+            "price": "21.22",
+            "image": "product/bowls_soups.jpg",
+            "stock": 20,
+            "available": true,
+            "created": "2021-12-08T16:12:01.786Z",
+            "updated": "2021-12-13T02:20:46.921Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "f207945b-bf81-4a06-82a2-78a15c02de71",
+        "fields": {
+            "name": "Delish Insane treats",
+            "description": "The editors of Delish.com know one thing for sure: ANYONE can bake an amazing dessert. Crammed with surprising ideas for treats that are both fun and easy, the wildly popular brand's second cookbook features 100 recipes: new classics and reader favourites that have been shared hundreds of thousands of times. You'll find all the essentials (Snickerdoodles, Death By ChocolateBrownies, and Extra-Fluffy Vanilla Cupcakes), but also the crazy twists Delish is known for, like Creme Brulee Cookies, Samoa Cheesecake Bars, and Moscow Mule Cupcakes - plus an entire chapter dedicated to over-the-top cookie cakes and skillet desserts. This indulgent book will appeal to food lovers who bake the way most of us do - sometimes with a boxed mix, sometimes from scratch; as therapy for a bad day; or to impress friends on Girls' Night.",
+            "category": "bf5baaa8-a795-47b6-9d7f-c68fca19e3ec",
+            "price": "54.00",
+            "image": "product/delish_bake.jpg",
+            "stock": 32,
+            "available": true,
+            "created": "2021-12-08T16:16:55.475Z",
+            "updated": "2021-12-09T00:31:56.943Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "fa9690ec-4492-4687-995b-290925346d41",
+        "fields": {
+            "name": "Happy Leons",
+            "description": "Following the success of Leon Happy Salads - more than 60,000 copies sold - the Leon team is back, this time with delicious warming soups that are a meal in themselves.\r\n\r\nLeon, the home of naturally fast food, has created a collection of more than 100 all-new, all-smiles soup recipes for Comforting, Naturally Fast, Bright & Fresh, Posh and Sweet Soups, plus those all-important Sides and Crunchy Tops & Swirly Swirls.",
+            "category": "6bf8c3e9-3e93-4bb9-9357-c61c6c0a09a0",
+            "price": "3.00",
+            "image": "product/happy_soups.jpg",
+            "stock": 900,
+            "available": true,
+            "created": "2021-12-08T16:13:07.244Z",
+            "updated": "2021-12-08T16:13:07.244Z"
+        }
+    }
+]
