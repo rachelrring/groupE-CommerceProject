@@ -12,3 +12,15 @@ Added to the database
 Set up cart app
 
 Added stripe payments
+
+**Rachel**:
+
+Implemented Views and Templates for shop app
+
+Added Paginator to shop app
+
+Set up Search app
+
+Set up order app
+
+Added JSON file
