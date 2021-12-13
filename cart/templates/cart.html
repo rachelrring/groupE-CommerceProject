@@ -4,7 +4,7 @@
 This is the shopping cart page. Proceed to review your items and place the order.
 {% endblock %}
 {% block title %}
-Cart - Perfect Cushion Store
+Cart - Perfect Cookbook Store
 {% endblock %}
 {% block content %}
 {% if not cart_items %}
@@ -142,7 +142,7 @@ Cart - Perfect Cushion Store
 			<form action="" method="POST">
 				{% csrf_token %}
 				<script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="{{ data_key }}"
-					data-amount="{{ stripe_total }}" data-name="Perfect Cushion Shop"
+					data-amount="{{ stripe_total }}" data-name="Perfect Cookbook Shop"
 					data-description="{{ description }}" data-image="{% static 'images/logo.png' %}" data-locale="auto"
 					data-currency="eur" data-shipping-address="true" data-billing-address="true" data-zip-code="true">
 					</script>
