@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'stripe',
     'order',
     'crispy_forms',
+    'vouchers',
 ]
 
 MIDDLEWARE = [
@@ -150,3 +151,6 @@ STRIPE_PUBLISHABLE_KEY = 'pk_test_51JzMbAAQCjpksQoFBmGgdBfVNyyW17BjsnmzeQ8wihGd6
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
