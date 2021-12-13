@@ -27,6 +27,6 @@ Added JSON file
 
 **As a Group**:
 
-STyling and layout
+Styling and layout
 
 Database population
