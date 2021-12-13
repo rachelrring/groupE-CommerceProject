@@ -2,23 +2,23 @@
     <div class="my_custom_menu">
         <ul>
             {% if user.is_authenticated %}
-            <li>
+            <li><button class="btn btn-success" type="submit">
                 Welcome, <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">{{ user.username }}
                     <i class="fas fa-user-circle"></i></a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <a href="{% url 'order:order_history' %}" class="dropdown-item">Order History</a>
-                    </div>
+                    </div></button>
             </li>
             <li>
-                <a href="{% url 'signout' %}">Sign Out <i class="fas fa-sign-out-alt"></i></a>
+                <button class="btn btn-success" type="submit"><a href="{% url 'signout' %}">Sign Out <i class="fas fa-sign-out-alt"></i></a></button>
             </li>
             {% else %}
             <li>
-                <a href="{% url 'signup' %}">Sign Up <i class="fas fa-user-plus"></i></a>
+                <button class="btn btn-success" type="submit"><a href="{% url 'signup' %}">Sign Up <i class="fas fa-user-plus"></i></a></button>
             </li>
             <li>
-                <a href="{% url 'signin' %}">Sign In <i class="fas fa-sign-in-alt"></i></a>
+                <button class="btn btn-success" type="submit"><a href="{% url 'signin' %}">Sign In <i class="fas fa-sign-in-alt"></i></a></button>
             </li>
             {% endif %}
         </ul>
