@@ -24,3 +24,9 @@ Set up Search app
 Set up order app
 
 Added JSON file
+
+**As a Group**:
+
+STyling and layout
+
+Database population
